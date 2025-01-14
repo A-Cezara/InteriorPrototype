@@ -1,0 +1,81 @@
+h1,
+h2 {
+  color: white;
+}
+h3 {
+  color: #757575;
+}
+
+p {
+  color: white;
+}
+button {
+  margin-top: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #959595;
+  border-bottom: 1px solid white;
+  padding: 30px 50px;
+}
+.navigation {
+  display: flex;
+  gap: 34px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.mainHero {
+  background: #959595;
+  display: flex;
+  justify-content: space-between;
+}
+.leftHero {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 705px;
+  padding: 100px 0px 200px 50px;
+}
+.rightHero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.polygon {
+  width: 450px;
+  height: 400px;
+  margin-right: 164px;
+  background-size: cover; /* Makes the image cover the entire shape */
+  background-position: center;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: palevioletred;
+}
+.floatBlack,
+.floatGrey {
+  width: 400px;
+  flex-shrink: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.floatBlack {
+  background-color: #1b1717;
+}
+.floatGrey {
+  background-color: #757575;
+}
+.floatMenu {
+  display: flex;
+  height: 296px;
+  justify-content: center;
+  position: relative;
+  top: -90px;
+}
